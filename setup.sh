@@ -8,8 +8,8 @@ END='\e[0;0m'
 minikube delete
 minikube start --vm-driver=docker
 minikube addons enable metallb
-#minikube addons enable dashboard
-#minikube dashboard &
+minikube addons enable dashboard
+minikube dashboard &
 eval $(minikube docker-env)
 # docker build
 sleep 30

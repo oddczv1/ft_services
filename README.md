@@ -15,7 +15,7 @@ ssh-keygen -R 192.168.49.3
 # ########## #
 # replace IP #
 # ########## #
-sed -i "s/https:\/\/localhost/http:\/\/192.168.49.2:5050/g" wordpress.sql
+sed -i "s/https:\/\/localhost/http:\/\/192.168.49.3:5050/g" wordpress.sql
 
 # ################# #
 # upload / download #
